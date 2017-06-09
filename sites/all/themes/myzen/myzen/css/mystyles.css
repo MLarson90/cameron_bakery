@@ -1,0 +1,13 @@
+.breadcrumb{
+  text-align: center;
+}
+.header_logo{
+  display:none;
+}
+.header{
+  background: blue;
+  color: white;
+}
+.header_site-link a span{
+  color:white;
+}
