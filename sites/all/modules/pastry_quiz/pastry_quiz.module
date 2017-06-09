@@ -97,15 +97,15 @@ function quiz_success() {
   $diet = $_SESSION['diet'];
   $hip = $_SESSION['hip'];
   if ($gluten && $diet) {
-    return '<p>get a donut!</p>';
+    return '<p>Get a donut!</p>';
   } else if($gluten && $hip){
-    return "<p>cool! we've got stuff for you too!</p>";
+    return "<p>Cool! We've got stuff for you too!</p>";
   }else if($diet && $hip){
-    return "<h1>we don't want your money go somewhere else!</h1>";
+    return "<h1>We don't want your money go somewhere else!</h1>";
   }else if($gluten){
     return "<p>We only serve gluten here</p>";
   }else if($diet){
-    return "<p>Maybe you should go on one</p>";
+    return "<p>Maybe you should read a book</p>";
   }else if($hip){
     return "<p>Get out of here!</p>";
   }

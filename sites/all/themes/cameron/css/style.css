@@ -1,0 +1,27 @@
+body{
+  background: red;
+}
+.region{
+float:right;
+  color:yellow;
+}
+#navigation{
+  border: 5px double blue;
+  display:none;
+  background: rgba(55,25,44,.5);
+  width:300px;
+  margin-left: 50px;
+}
+.title{
+  float: right;
+  margin-right: 20px;
+}
+.block{
+  margin-top: 300px;
+}
+#block-search-form{
+  margin-top: 10px;
+}
+li{
+  color: white;
+}
