@@ -108,17 +108,17 @@ function quiz_success() {
     return "<p>Maybe you should read a book</p>";
   }else if($hip){
     return "<p>Get out of here!</p>";
+  }else{
+    return "<p>Pastries are good for heart attacks";
   }
 }
 
 function start_form_submit($form, &$form_state) {
   $answer = $form_state['values']['ready'];
-  var_dump($answer);
-  var_dump($form_state['values']['ready']);
   if($answer){
-  $form_state['redirect'] = 'quiz_question_1';
-  }else{
   $form_state['redirect'] = 'quiz';
+  }else{
+  $form_state['redirect'] = 'quiz_question_1';
   }
 }
 
